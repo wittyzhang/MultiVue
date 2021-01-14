@@ -1,0 +1,25 @@
+//======================
+// Common
+//======================
+.fl{ float: left;}
+.fr{ float: right;}
+.mt18{ margin-top: toREM(18);}
+.mt20{ margin-top: toREM(10);}
+
+.pink{color: #EA4141;}
+.weight{font-weight: 600;}
+.hide{ display: none!important;}
+._txt {
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	padding-right: .3rem;
+	overflow: hidden;
+}
+a {
+	color: #333;
+	-webkit-tap-highlight-color: transparent;
+}
+.clearfix{
+	@include clearfix;
+}
